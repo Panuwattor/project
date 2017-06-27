@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('admin_template');
 });
+
+Route::get('/general', function () {
+    return view('general');
+});
+
+Route::get('/top-nav', function () {
+    return view('layout.top-nav');
+});
