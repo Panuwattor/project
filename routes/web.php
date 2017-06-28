@@ -20,5 +20,45 @@ Route::get('/general', function () {
 });
 
 Route::get('/top-nav', function () {
-    return view('layout.top-nav');
+    return view('top-nav');
+});
+
+Route::get('/boxed', function () {
+    return view('boxed');
+});
+
+Route::get('/fixed', function () {
+    return view('fixed');
+});
+
+Route::get('/collapsed-sidebar', function () {
+    return view('collapsed-sidebar');
+});
+
+Route::get('/layout', function () {
+    return view('layout');
+});
+
+Route::get('/test', function () {
+    return view('test');
+});
+
+Route::get('/widgets', function () {
+    return view('widgets');
+});
+
+Route::get('/chartjs', function () {
+    return view('chartjs');
+});
+
+Route::get('/flot', function () {
+    return view('flot');
+});
+
+Route::get('/inline', function () {
+    return view('inline');
+});
+
+Route::get('/morris', function () {
+    return view('morris');
 });
